@@ -1,0 +1,289 @@
+/* ==========================================
+   HEADER
+========================================== */
+
+#header{
+    width:100%;
+    background:#6fa8dc;
+    padding:20px;
+}
+
+/* โลโก้ */
+.logo{
+    width:100px;
+    height:100px;
+    float:left;
+    margin-right:20px;
+}
+
+/* ข้อความ */
+.header-text{
+    float:left;
+    margin-top:18px;
+}
+
+.header-text h1{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.header-text p{
+    color:#fff;
+}
+
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ==========================================
+   BODY
+========================================== */
+
+body{
+    font-family:Tahoma,sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.container{
+    width:1200px;
+    margin:20px auto;
+    background:#fff;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+#header{
+    width:100%;
+    background:#6fa8dc;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+}
+
+#header h1{
+    margin-bottom:10px;
+}
+
+/* ==========================================
+   TOP MENU
+========================================== */
+
+#topmenu{
+    background:#9fc5e8;
+}
+
+#topmenu ul{
+    list-style:none;
+}
+
+#topmenu ul li{
+    float:left;
+}
+
+#topmenu ul li a{
+    display:block;
+    padding:15px 25px;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#topmenu ul li a:hover{
+    background:#6fa8dc;
+    color:#fff;
+}
+
+/* ==========================================
+   MAIN
+========================================== */
+
+#main{
+    width:100%;
+}
+
+/* ==========================================
+   SIDE MENU
+========================================== */
+
+#sidebar{
+    width:25%;
+    float:left;
+    background:#d9ead3;
+    min-height:700px;
+    padding:20px;
+}
+
+#sidebar h3{
+    margin-bottom:20px;
+}
+
+#sidebar ul{
+    list-style:none;
+}
+
+#sidebar ul li{
+    margin-bottom:15px;
+}
+
+#sidebar ul li a{
+    text-decoration:none;
+    color:#000;
+}
+
+#sidebar ul li a:hover{
+    color:#0066cc;
+}
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+#content{
+    width:75%;
+    float:left;
+    min-height:700px;
+    padding:20px;
+}
+
+#content h2{
+    margin-bottom:20px;
+}
+
+#content p{
+    margin-bottom:15px;
+}
+
+/* ==========================================
+   PRODUCT CARD
+========================================== */
+
+.product{
+    width:30%;
+    float:left;
+    margin:1.5%;
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+.product img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.product h3{
+    margin-top:10px;
+}
+
+.product p{
+    color:red;
+    font-weight:bold;
+}
+
+.product a{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 15px;
+    background:#4CAF50;
+    color:white;
+    text-decoration:none;
+}
+
+.product a:hover{
+    background:#388E3C;
+}
+
+/* ==========================================
+   DETAIL PAGE
+========================================== */
+
+.detail-image{
+    width:40%;
+    float:left;
+}
+
+.detail-image img{
+    width:100%;
+}
+
+.detail-info{
+    width:55%;
+    float:left;
+    margin-left:5%;
+}
+
+.detail-info p{
+    margin:15px 0;
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#6fa8dc;
+    color:#fff;
+    padding:10px;
+}
+
+table td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#4CAF50;
+    color:#fff;
+    text-decoration:none;
+    margin-top:20px;
+}
+
+.btn:hover{
+    background:#388E3C;
+}
+
+/* ==========================================
+   CLEAR FLOAT
+========================================== */
+
+.clear{
+    clear:both;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+#footer{
+    clear:both;
+    background:#dddddd;
+    text-align:center;
+    padding:20px;
+}
